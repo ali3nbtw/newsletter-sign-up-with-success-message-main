@@ -1,0 +1,48 @@
+body {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding: 30px;
+	padding-top: 150px;
+	height: 100vh;
+}
+.body2 {
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+img {
+	max-width: 60px;
+}
+@media screen and (min-width: 900px) {
+	body {
+		background-color: hsl(235, 18%, 26%);
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.body2 {
+		background-color: white;
+		display: flex;
+		justify-content: space-between;
+		padding: 50px;
+		border-radius: 20px;
+		width: 450px;
+		height: 450px;
+		gap: 15px;
+		flex-direction: column;
+	}
+	.sign-up-mobile {
+		display: none;
+	}
+	.sign-up-desktop {
+		display: block;
+	}
+	.container {
+		justify-content: initial;
+		align-self: center;
+	}
+}

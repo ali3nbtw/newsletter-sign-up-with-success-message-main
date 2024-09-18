@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style-success.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="body2">
+      <img src="assets/images/icon-success.svg" alt="success-icon" class="success-icon">
+      <h1 class="thanks-for-subscribing">Thanks for subscribing!</h1>
+      <p>A confirmation email has been sent to <b>${emailInputValue}</b>.
+         Please open it and click the button inside to confirm your subscription</p>
+      <button class="subscribe-btn" onclick="reload()">Dismiss message</button>
+      <script src="index.js"></script>
+   </div>
+   <button class="subscribe-btn" onclick="reload()">Dismiss message</button>
+</body>
+
+</html>
